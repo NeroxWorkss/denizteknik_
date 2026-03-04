@@ -3,84 +3,101 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Deniz Teknik</title>
+
+<title>Deniz Teknik | Veito Ani Su Isıtıcısı Servisi</title>
+
+<!-- SEO -->
+<meta name="description" content="Deniz Teknik - Veito Ani Su Isıtıcısı teknik servis hizmeti. Hızlı, güvenilir ve profesyonel çözümler.">
+<meta name="keywords" content="Deniz Teknik, Veito Servisi, Ani Su Isıtıcısı Servisi, Antalya Teknik Servis">
+<meta name="author" content="Deniz Teknik">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Deniz Teknik | Veito Ani Su Isıtıcısı Servisi">
+<meta property="og:description" content="Profesyonel Veito ani su ısıtıcısı teknik servis hizmeti.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://neroxworks.github.io/denizteknik_/">
 
 <style>
-body{
-  margin:0;
-  font-family:Arial, sans-serif;
-  background:linear-gradient(135deg,#001f3f,#003366);
-  color:white;
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#001f3f,#003366);
+    color:white;
 }
 
-header{
-  position:fixed;
-  top:0;
-  width:100%;
-  background:rgba(0,0,0,0.6);
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:15px 40px;
+header {
+    position:fixed;
+    top:0;
+    width:100%;
+    background:rgba(0,0,0,0.7);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    z-index:1000;
 }
 
-.phone{
-  color:#00e0ff;
-  font-weight:bold;
+header h2 {
+    margin:0;
 }
 
-.hero{
-  height:100vh;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
+nav a {
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
 }
 
-.hero h1{
-  font-size:55px;
-  margin-bottom:20px;
+.hero {
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
 }
 
-.hero p{
-  font-size:24px;
-  color:#aeefff;
-  margin-bottom:30px;
+.hero h1 {
+    font-size:40px;
+    margin-bottom:20px;
 }
 
-.btn{
-  padding:15px 40px;
-  border:none;
-  border-radius:30px;
-  font-size:18px;
-  cursor:pointer;
-  background:#00e0ff;
-  color:black;
-  font-weight:bold;
+.hero p {
+    font-size:18px;
+    max-width:600px;
 }
 
-footer{
-  background:#001f3f;
-  text-align:center;
-  padding:20px;
-  color:#94cfff;
+.btn {
+    margin-top:25px;
+    padding:15px 30px;
+    background:#00c3ff;
+    color:black;
+    font-weight:bold;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    text-decoration:none;
 }
 
-.call-float{
-  position:fixed;
-  bottom:30px;
-  right:20px;
-  background:#22c55e;
-  width:65px;
-  height:65px;
-  border-radius:50%;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  font-size:28px;
-  text-decoration:none;
-  color:white;
+.section {
+    padding:100px 20px;
+    text-align:center;
+}
+
+.card {
+    background:rgba(255,255,255,0.1);
+    padding:30px;
+    border-radius:15px;
+    margin:20px auto;
+    max-width:600px;
+}
+
+footer {
+    background:black;
+    text-align:center;
+    padding:20px;
 }
 </style>
 </head>
@@ -88,26 +105,58 @@ footer{
 <body>
 
 <header>
-  <h2>Deniz Teknik</h2>
-  <div class="phone">📞 0XXX XXX XX XX</div>
+<h2>Deniz Teknik</h2>
+<nav>
+<a href="#hizmet">Hizmet</a>
+<a href="#iletisim">İletişim</a>
+</nav>
 </header>
 
 <section class="hero">
-  <h1>Deniz Teknik</h1>
-  <p>Veito Ani Su Isıtıcısı</p>
+<h1>Deniz Teknik - Veito Ani Su Isıtıcısı Servisi</h1>
+<p>Profesyonel, hızlı ve güvenilir teknik servis hizmeti. Veito ani su ısıtıcıları için uzman çözümler.</p>
+<a href="tel:02423113130" class="btn">Hemen Ara</a>
+</section>
 
-  <a href="tel:0XXXXXXXXXX">
-    <button class="btn">📞 Hemen Ara</button>
-  </a>
+<section id="hizmet" class="section">
+<h2>Hizmetlerimiz</h2>
+
+<div class="card">
+<h3>Veito Ani Su Isıtıcısı Servisi</h3>
+<p>Montaj, bakım ve arıza tespiti hizmeti sunuyoruz.</p>
+</div>
+
+<div class="card">
+<h3>Hızlı Müdahale</h3>
+<p>Aynı gün servis imkanı.</p>
+</div>
+
+</section>
+
+<section id="iletisim" class="section">
+<h2>İletişim</h2>
+<div class="card">
+<p><strong>Telefon:</strong> 0242 311 31 30</p>
+<p><strong>Hizmet Bölgesi:</strong> Antalya</p>
+</div>
 </section>
 
 <footer>
-  © 2026 Deniz Teknik - Tüm Hakları Saklıdır
+© 2026 Deniz Teknik - Tüm Hakları Saklıdır
 </footer>
 
-<a href="tel:0XXXXXXXXXX" class="call-float">
-📞
-</a>
+<!-- Schema SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Deniz Teknik",
+  "description": "Veito Ani Su Isıtıcısı Teknik Servis Hizmeti",
+  "telephone": "02423113130",
+  "areaServed": "Antalya",
+  "url": "https://neroxworks.github.io/denizteknik_/"
+}
+</script>
 
 </body>
 </html>
