@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Antalya Veito Şofben Servisi | Deniz Teknik</title>
 
+<meta name="description" content="Antalya Veito Şofben Servisi - 11 yıllık deneyim, garantili onarım ve aynı gün servis. 0242 311 31 30">
+
 <style>
 body{
     margin:0;
@@ -12,13 +14,16 @@ body{
     scroll-behavior:smooth;
 }
 
+/* ÜST BAR */
 .topbar{
     background:#1f4e8c;
     color:white;
     text-align:center;
     padding:10px;
+    font-size:14px;
 }
 
+/* NAVBAR */
 .navbar{
     display:flex;
     justify-content:space-between;
@@ -28,11 +33,12 @@ body{
     box-shadow:0 2px 10px rgba(0,0,0,0.1);
     position:sticky;
     top:0;
+    z-index:1000;
 }
 
 .navbar h2{
-    color:#1f4e8c;
     margin:0;
+    color:#1f4e8c;
 }
 
 .navbar a{
@@ -42,6 +48,7 @@ body{
     color:#333;
 }
 
+/* HERO */
 .hero{
     display:flex;
     align-items:center;
@@ -70,30 +77,50 @@ body{
     border-radius:40px;
 }
 
-/* CİHAZ ALANI */
+/* CİHAZ TASARIM */
 .devices{
     display:flex;
-    gap:30px;
+    gap:40px;
 }
 
 .device-card{
-    background:white;
-    padding:20px;
-    border-radius:15px;
     text-align:center;
-    color:black;
-    width:200px;
 }
 
-.device-card img{
-    width:150px;
+.heater{
+    width:120px;
+    height:200px;
+    background:linear-gradient(to bottom,#ffffff,#dcdcdc);
+    margin:0 auto 15px;
+    border-radius:20px;
+    position:relative;
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
 }
 
+.heater::after{
+    content:'';
+    width:20px;
+    height:20px;
+    background:#1f4e8c;
+    border-radius:50%;
+    position:absolute;
+    bottom:15px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.heater.dark{
+    background:linear-gradient(to bottom,#222,#555);
+}
+
+/* HAKKIMIZDA */
 .about{
     padding:80px 40px;
     text-align:center;
+    background:white;
 }
 
+/* HİZMETLER */
 .services{
     padding:80px 40px;
     background:#f5f5f5;
@@ -110,6 +137,7 @@ body{
     box-shadow:0 5px 20px rgba(0,0,0,0.1);
 }
 
+/* FOOTER */
 footer{
     background:#0f2f57;
     color:white;
@@ -155,17 +183,15 @@ Bize Ulaşabilirsiniz - (0242) 311 31 30 | Antalya
 </div>
 
 <div class="devices">
-
 <div class="device-card">
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Electric_water_heater.jpg">
+<div class="heater"></div>
 <p>Veito Elektrikli Şofben</p>
 </div>
 
 <div class="device-card">
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Instant_water_heater.jpg">
+<div class="heater dark"></div>
 <p>Veito Ani Su Isıtıcı</p>
 </div>
-
 </div>
 </section>
 
@@ -204,7 +230,7 @@ Müşteri memnuniyeti bizim önceliğimizdir.
 </section>
 
 <footer>
-© 2026 Deniz Teknik
+© 2026 Deniz Teknik | Antalya Veito Servisi
 </footer>
 
 </body>
