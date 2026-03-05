@@ -4,165 +4,179 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Antalya Veito Servisi | Deniz Teknik | 0242 311 31 30</title>
+<title>Antalya Veito Şofben Servisi | Deniz Teknik</title>
 
-<meta name="description" content="Antalya Deniz Teknik - Veito Ani Su Isıtıcısı Servisi. Aynı gün servis, hızlı arıza tespiti ve profesyonel teknik destek. 0242 311 31 30">
-<meta name="keywords" content="Antalya Veito Servisi, Deniz Teknik Antalya, Ani Su Isıtıcısı Servisi Antalya, Veito Teknik Servis">
+<meta name="description" content="Antalya Veito Şofben Servisi - Deniz Teknik. Aynı gün servis, hızlı arıza tespiti ve garantili onarım. 0242 311 31 30">
+<meta name="keywords" content="Antalya Veito Servisi, Veito Şofben Servisi, Deniz Teknik Antalya">
 <meta name="author" content="Deniz Teknik">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://neroxworks.github.io/denizteknik_/">
-
-<!-- GOOGLE SEARCH CONSOLE DOĞRULAMA -->
-<meta name="google-site-verification" content="google3847563d4f4dcc28" />
-
-<meta property="og:title" content="Antalya Veito Servisi | Deniz Teknik">
-<meta property="og:description" content="Veito Ani Su Isıtıcısı Teknik Servisi - Antalya">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://neroxworks.github.io/denizteknik_/">
 
 <style>
-body {
+
+body{
     margin:0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg,#001f3f,#003366);
-    color:white;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-header {
-    position:fixed;
-    top:0;
-    width:100%;
-    background:rgba(0,0,0,0.85);
+/* ÜST BAR */
+.topbar{
+    background:#1f4e8c;
+    color:white;
+    text-align:center;
+    padding:10px;
+    font-size:14px;
+}
+
+/* NAVBAR */
+.navbar{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:15px 40px;
-    z-index:1000;
+    padding:20px 60px;
+    background:white;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
-header h2 {
+.navbar h2{
     margin:0;
+    color:#1f4e8c;
 }
 
-nav a {
-    color:white;
+.navbar a{
     text-decoration:none;
-    margin-left:20px;
+    margin-left:25px;
     font-weight:bold;
+    color:#333;
 }
 
-.hero {
-    height:100vh;
+/* HERO */
+.hero{
     display:flex;
-    flex-direction:column;
-    justify-content:center;
     align-items:center;
-    text-align:center;
-    padding:20px;
+    justify-content:space-between;
+    padding:80px 60px;
+    background:linear-gradient(135deg,#0f2f57,#c21f32);
+    color:white;
 }
 
-.hero h1 {
-    font-size:38px;
+.hero-text{
+    max-width:600px;
+}
+
+.hero-text h1{
+    font-size:40px;
     margin-bottom:20px;
 }
 
-.hero p {
+.hero-text p{
     font-size:18px;
-    max-width:600px;
 }
 
-.btn {
+.call-btn{
+    display:inline-block;
     margin-top:25px;
     padding:15px 30px;
-    background:#00c3ff;
+    background:#ffcc00;
     color:black;
     font-weight:bold;
-    border:none;
-    border-radius:30px;
-    cursor:pointer;
     text-decoration:none;
+    border-radius:40px;
 }
 
-.section {
-    padding:100px 20px;
+/* ÜRÜN GÖRSELLER */
+.hero-images img{
+    width:200px;
+    margin-left:20px;
+}
+
+/* HİZMET ALANI */
+.services{
+    padding:80px 40px;
     text-align:center;
+    background:#f5f5f5;
 }
 
-.card {
-    background:rgba(255,255,255,0.1);
+.service-box{
+    display:inline-block;
+    background:white;
     padding:30px;
+    margin:20px;
+    width:250px;
     border-radius:15px;
-    margin:20px auto;
-    max-width:600px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
 }
 
-footer {
-    background:black;
+footer{
+    background:#0f2f57;
+    color:white;
     text-align:center;
     padding:20px;
 }
+
+@media(max-width:900px){
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+    .hero-images{
+        margin-top:40px;
+    }
+}
+
 </style>
 </head>
 
 <body>
 
-<header>
+<div class="topbar">
+Bize Ulaşabilirsiniz - (0242) 311 31 30 | Antalya
+</div>
+
+<div class="navbar">
 <h2>Deniz Teknik</h2>
-<nav>
-<a href="#hizmet">Hizmetler</a>
-<a href="#iletisim">İletişim</a>
-</nav>
-</header>
+<div>
+<a href="#">Anasayfa</a>
+<a href="#">Hakkımızda</a>
+<a href="#">Hizmetler</a>
+<a href="#">İletişim</a>
+</div>
+</div>
 
 <section class="hero">
-<h1>Antalya Veito Ani Su Isıtıcısı Servisi | Deniz Teknik</h1>
-<p>Antalya genelinde profesyonel Veito ani su ısıtıcısı teknik servis hizmeti. Aynı gün servis ve hızlı arıza tespiti.</p>
-<a href="tel:02423113130" class="btn">Hemen Ara - 0242 311 31 30</a>
-</section>
-
-<section id="hizmet" class="section">
-<h2>Hizmetlerimiz</h2>
-
-<div class="card">
-<h3>Veito Ani Su Isıtıcısı Servisi</h3>
-<p>Montaj, bakım ve arıza tespiti hizmeti sunuyoruz.</p>
+<div class="hero-text">
+<h1>Antalya Veito Şofben Servisi</h1>
+<p>Deniz Teknik olarak Antalya genelinde Veito elektrikli şofben bakım, onarım ve montaj hizmeti sunuyoruz.</p>
+<a href="tel:02423113130" class="call-btn">HEMEN ARA (0242) 311 31 30</a>
 </div>
 
-<div class="card">
+<div class="hero-images">
+<img src="https://www.veito.com/wp-content/uploads/2020/12/veito-blue-11-kw.png" alt="Veito Şofben">
+<img src="https://www.veito.com/wp-content/uploads/2020/12/veito-blue-14-kw.png" alt="Veito Elektrikli Şofben">
+</div>
+</section>
+
+<section class="services">
+<h2>Özel Servis Hizmetlerimiz</h2>
+
+<div class="service-box">
+<h3>Veito Şofben Tamiri</h3>
+<p>Arıza tespiti ve garantili onarım hizmeti.</p>
+</div>
+
+<div class="service-box">
+<h3>Bakım & Temizlik</h3>
+<p>Performans artırıcı periyodik bakım hizmeti.</p>
+</div>
+
+<div class="service-box">
 <h3>Aynı Gün Servis</h3>
-<p>Antalya içinde hızlı ve güvenilir teknik destek.</p>
+<p>Antalya içi hızlı teknik destek.</p>
 </div>
 
-</section>
-
-<section id="iletisim" class="section">
-<h2>İletişim</h2>
-<div class="card">
-<p><strong>Telefon:</strong> 0242 311 31 30</p>
-<p><strong>Hizmet Bölgesi:</strong> Antalya</p>
-</div>
 </section>
 
 <footer>
-© 2026 Deniz Teknik - Tüm Hakları Saklıdır
+© 2026 Deniz Teknik | Antalya Veito Servisi
 </footer>
-
-<!-- Local SEO Schema -->
-<script type="application/ld+json">
-{
- "@context": "https://schema.org",
- "@type": "LocalBusiness",
- "name": "Deniz Teknik",
- "telephone": "+902423113130",
- "address": {
-   "@type": "PostalAddress",
-   "addressLocality": "Antalya",
-   "addressCountry": "TR"
- },
- "areaServed": "Antalya",
- "url": "https://neroxworks.github.io/denizteknik_/"
-}
-</script>
 
 </body>
 </html>
